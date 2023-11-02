@@ -21,6 +21,8 @@ npm i
 
 Run route using Insomnia.
 
+[Example Video](https://youtu.be/QElYlAT8u4w)
+
 ## Tests
 
 N/A
