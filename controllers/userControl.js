@@ -79,7 +79,7 @@ module.exports = {
 			res.status(500).json(err);
 		}
 	},
-	//Deletes user and associated thoughts
+	//Deletes user and thoughts
 	async deleteOne(req, res) {
 		try {
 			const user = await User.findOneAndDelete({ _id: req.params.userId });
@@ -88,7 +88,7 @@ module.exports = {
 				res.status(404).json({ message: "No user found!" });
 			}
 
-			//Deletes all thoughts associated with this user
+			//Deletes all thoughts
 			await Thought.deleteMany({ _id: { $in: user.thoughts } });
 
 			res.status(200).json({
