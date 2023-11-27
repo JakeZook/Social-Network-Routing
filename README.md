@@ -33,7 +33,7 @@ Jake Zook
 
 ## Questions
 
-Feel free to email jakezook01@gamil.com with any questions.
+Feel free to email jakezook01@gmail.com with any questions.
 
 GitHub: github.com/Jake Zook/
 
